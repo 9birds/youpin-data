@@ -1,8 +1,8 @@
 #
 # Data Dockerfile
-# version 1.0
+# version 1.1
 #
-FROM youpin/ubuntu
+FROM youpin/ubuntu:gzy
 MAINTAINER Leo <jiangwenhua@yoyohr.com>
 
 RUN mkdir -p /home/data
