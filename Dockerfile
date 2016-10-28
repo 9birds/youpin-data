@@ -5,6 +5,6 @@
 FROM youpin/ubuntu
 MAINTAINER Leo <jiangwenhua@yoyohr.com>
 
-RUN mkdir -p /home/data
+COPY home /home
 VOLUME /home/data
 CMD ["true"]
